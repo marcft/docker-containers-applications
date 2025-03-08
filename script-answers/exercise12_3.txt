@@ -1,0 +1,22 @@
+Script started on Fri Mar  7 20:06:03 2025
+[K
+
+[2A7~/Desktop                                                                                                                   20:06:03
+❯ [?2004h[?25l8[J]2;marc@AirMac:~/Desktop]1;~/Desktop]7;file://AirMac.local/Users/marc/Desktop\%                                                                                                                                    [K[J
+[A~/Desktop                                                                                                                   20:06:03
+❯ [K[?1h=[?25h[?2004h[?25l[A[J
+[A~/Desktop                                                                                                                   20:06:03
+❯ [K[?25hscriptscriptdocker start -i reverent_austin[?1l>[?2004l
+]2;docker start -i reverent_austin]1;docker[?2004h]0;root@61ef0a090e2a: /root@61ef0a090e2a:/# [K]0;root@61ef0a090e2a: /root@61ef0a090e2a:/# nano /usr/src/app/index.jsnano /usr/src/app/index.js
+[?2004l[?2004h[?1049h[22;0;0t[1;25r(B[4l[?7h[?1h=[?1h=[?25l(B[H[2J[23;60H(B[ Reading... ](B[23;59H(B[ Read 0 lines ](B[H(B  GNU nano 7.2 [43b/usr/src/app/index.js [52b [1;132H(B[24d(B^G(B Help[24;17H(B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut[24;65H(B^T(B Execute[81G(B^C(B Location     (BM-U(B Undo[24;113H(BM-A(B Set Mark[25d(B^X(B Exit[25;17H(B^R(B Read File    (B^\(B Replace[49G(B^U(B Paste[25;65H(B^J(B Justify[81G(B^/(B Go To Line   (BM-E(B Redo[25;113H(BM-6(B Copy[2d[?12l[?25h[?25l[1;81H(B*[23d(B[K[1;132H[2dconsole.log((B'Hello World'(B)[?12l[?25h[?25l[24;17H[17X[24;34H(BM-D(B DOS Format [6b[24;65H  (BM-A(B Append[23X[24;100H(BM-B(B Backup File[K[25;2H(BC(B Cancel[17G[17X[25;34H(BM-M(B Mac Format [8b[25;65H  (BM-P(B Prepend[22X[25;100H(B^T(B Browse[K[23d(BFile Name to Write: /usr/src/app/index.js [90b [23;42H(B[?12l[?25h[?25l[23;59H[1K (B[ Writing... ](B[K[1;81H(B [132G(B[23;59H(B[ Wrote 1 line ](B[24;17H(B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut[24;65H(B^T(B Execute      (B^C(B Location     (BM-U(B Undo [7b(BM-A(B Set Mark[25;2H(BX(B Exit  [17G(B^R(B Read File    (B^\(B Replace      (B^U(B Paste[25;65H(B^J(B Justify      (B^/(B Go To Line   (BM-E(B Redo [7b(BM-6(B Copy[?12l[?25h[2;27H[?25l[23d[J[25d[?12l[?25h[25;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@61ef0a090e2a: /root@61ef0a090e2a:/# [Kcat /usr/src/app/index.js 
+[?2004lconsole.log('Hello World')
+[?2004h]0;root@61ef0a090e2a: /root@61ef0a090e2a:/# [Kexit
+[?2004lexit
+%                                                                                                                                     ]2;marc@AirMac:~/Desktop]1;~/Desktop]7;file://AirMac.local/Users/marc/Desktop\[K
+[J
+[A~/Desktop                                                                                                               59s 20:07:26
+❯ [K[?1h=[?2004h[?25l[A[J
+[A~/Desktop                                                                                                               59s 20:07:26
+❯ [K[?25heeexitexexexiexiitexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Fri Mar  7 20:07:29 2025

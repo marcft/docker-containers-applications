@@ -1,0 +1,33 @@
+Script started on Fri Mar  7 19:39:17 2025
+[K
+
+[2A7~/Desktop                                                              19:39:17
+❯ [?2004h[?25l8[J]2;marc@AirMac:~/Desktop]1;~/Desktop]7;file://AirMac.local/Users/marc/Desktop\%                                                                               [K[J
+[A~/Desktop                                                              19:39:17
+❯ [K[?1h=[?25h[?2004h[?25l[A[J
+[A~/Desktop                                                              19:39:17
+❯ [K[?25hddocker run -it ubuntu bash[26Ddocker run -it ubuntu bash[26Ddocker run -it ubuntu bash[26Ddocker[20C[?1l>[?2004l
+]2;docker run -it ubuntu bash]1;dockerUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K5a7813e071bf: Pulling fs layer [1B[1A[2K5a7813e071bf: Downloading  298.2kB/29.75MB[1B[1A[2K5a7813e071bf: Downloading  3.693MB/29.75MB[1B[1A[2K5a7813e071bf: Downloading  7.027MB/29.75MB[1B[1A[2K5a7813e071bf: Downloading  9.804MB/29.75MB[1B[1A[2K5a7813e071bf: Downloading  13.19MB/29.75MB[1B[1A[2K5a7813e071bf: Downloading  15.97MB/29.75MB[1B[1A[2K5a7813e071bf: Downloading  19.66MB/29.75MB[1B[1A[2K5a7813e071bf: Downloading  22.45MB/29.75MB[1B[1A[2K5a7813e071bf: Downloading  25.82MB/29.75MB[1B[1A[2K5a7813e071bf: Downloading  27.06MB/29.75MB[1B[1A[2K5a7813e071bf: Verifying Checksum [1B[1A[2K5a7813e071bf: Download complete [1B[1A[2K5a7813e071bf: Extracting  327.7kB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  1.966MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  3.277MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting   4.26MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  5.898MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  6.881MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  7.864MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  8.192MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  8.847MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  9.503MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  10.16MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  12.12MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  14.42MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  16.38MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  19.01MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  20.64MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  21.95MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  24.25MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting   24.9MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  25.56MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  26.54MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  27.85MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  28.18MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  28.84MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  29.49MB/29.75MB[1B[1A[2K5a7813e071bf: Extracting  29.75MB/29.75MB[1B[1A[2K5a7813e071bf: Pull complete [1BDigest: sha256:72297848456d5d37d1262630108ab308d3e9ec7ed1c3286a32fe09856619a782
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@61ef0a090e2a: /root@61ef0a090e2a:/# c ls
+[?2004lbin   dev  home  lib64  mnt  proc  run   srv  tmp  var
+boot  etc  lib   media  opt  root  sbin  sys  usr
+[?2004h]0;root@61ef0a090e2a: /root@61ef0a090e2a:/# cd usr/r src/
+[?2004l[?2004h]0;root@61ef0a090e2a: /usr/srcroot@61ef0a090e2a:/usr/src# ls
+[?2004l[?2004h]0;root@61ef0a090e2a: /usr/srcroot@61ef0a090e2a:/usr/src# mkdir app
+[?2004l[?2004h]0;root@61ef0a090e2a: /usr/srcroot@61ef0a090e2a:/usr/src# ls
+[?2004lapp
+[?2004h]0;root@61ef0a090e2a: /usr/srcroot@61ef0a090e2a:/usr/src# touch app/index.js
+[?2004l[?2004h]0;root@61ef0a090e2a: /usr/srcroot@61ef0a090e2a:/usr/src# exit
+[?2004lexit
+%                                                                                ]2;marc@AirMac:~/Desktop]1;~/Desktop]7;file://AirMac.local/Users/marc/Desktop\[K
+[J
+[A~/Desktop                                                       1m 58s 19:41:23
+❯ [K[?1h=[?2004h[?25l[A[J
+[A~/Desktop                                                       1m 58s 19:41:23
+❯ [K[?25heeexitexexexiexiitexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Fri Mar  7 19:41:40 2025
