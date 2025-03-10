@@ -1,0 +1,184 @@
+Script started on Mon Mar 10 11:39:11 2025
+%                                                                                                                               ]2;marc@AirMac:~/Desktop/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://AirMac.local/Users/marc/Desktop/part12-containers-applications/todo-app/todo-backend\[J
+[A~/Desktop/part12-containers-applications/todo-app/todo-backend                                                        11:39:15
+❯ [K[?1h=[?2004h[?25l[A[J
+[A~/Desktop/part12-containers-applications/todo-app/todo-backend main ⇡                                                 11:39:15
+❯ [K[?25h[?25l[A[J
+[A~/Desktop/part12-containers-applications/todo-app/todo-backend main* ⇡                                                11:39:15
+❯ [K[?25hdddocker compose down[18Ddododocdocckkeerdockerr r con         [9Dtainer rm 17[12Dta           [11Dainer rm 17[11D            [12Dtainer rm 17[12D             [13Dmpose down[10D           [11Dompose down[11D            [12Dcompose down[12Dcompose -   f docker-compose.dev.yml down[29Df docker-compose.dev.yml down[27Ddocker-compose.dev.yml[5C n  downd   own    downu   up -dupup -d[?1l>[?2004l
+]2;docker compose -f docker-compose.dev.yml up -d]1;docker[1A[1B[0G[?25l[+] Running 0/1
+ ⠋ Network todo-backend_default  Creating                                                                                 0.1s 
+[?25h[1A[1A[0G[?25l[+] Running 1/1
+ ✔ Network todo-backend_default  Created                                                                                  0.1s 
+[?25h[1A[1A[0G[?25l[+] Running 1/2
+ ✔ Network todo-backend_default    Created                                                                                0.1s 
+ ⠋ Container todo-backend-mongo-1  Creating                                                                               0.1s 
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ ✔ Network todo-backend_default    Created                                                                                0.1s 
+ ⠙ Container todo-backend-mongo-1  Creating                                                                               0.2s 
+[?25h[1A[1A[1A[0G[?25l[+] Running 2/2
+ ✔ Network todo-backend_default    Created                                                                                0.1s 
+ ✔ Container todo-backend-mongo-1  Created                                                                                0.2s 
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ ✔ Network todo-backend_default    Created                                                                                0.1s 
+ ⠹ Container todo-backend-mongo-1  Starting                                                                               0.4s 
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ ✔ Network todo-backend_default    Created                                                                                0.1s 
+ ⠸ Container todo-backend-mongo-1  Starting                                                                               0.5s 
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ ✔ Network todo-backend_default    Created                                                                                0.1s 
+ ⠼ Container todo-backend-mongo-1  Starting                                                                               0.6s 
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ ✔ Network todo-backend_default    Created                                                                                0.1s 
+ ⠴ Container todo-backend-mongo-1  Starting                                                                               0.7s 
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ ✔ Network todo-backend_default    Created                                                                                0.1s 
+ ⠦ Container todo-backend-mongo-1  Starting                                                                               0.8s 
+[?25h[1A[1A[1A[0G[?25l[+] Running 2/2
+ ✔ Network todo-backend_default    Created                                                                                0.1s 
+ ✔ Container todo-backend-mongo-1  Started                                                                                0.8s 
+[?25h%                                                                                                                               ]2;marc@AirMac:~/Desktop/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://AirMac.local/Users/marc/Desktop/part12-containers-applications/todo-app/todo-backend\[K
+[J
+[A~/Desktop/part12-containers-applications/todo-app/todo-backend main* ⇡                                                11:39:45
+❯ [K[?1h=[?2004h[?25l[A[J
+[A~/Desktop/part12-containers-applications/todo-app/todo-backend main* ⇡                                                11:39:45
+❯ [K[?25hdddocker compose -f docker-compose.dev.yml up -d[45Ddododocdocckkeerdockerr r e                                      [38Dxec -it 17 bash[15Dxec            [12D -it 17 bash[12D             [13Dc -it 17 bash[13D              [14Dec -it 17 bash[14D               [15Dxec -it 17 bash[15D                [16Dcompose -f docker-compose.dev.yml up -d[39D                                       [40D compose -f docker-compose.dev.yml up -d[40De                                         [41Ddocker compose -f docker-compose.dev.yml up -d[41Dk                                          [42Der compose -f docker-compose.dev.yml up -d[42Dc                                           [43Dker compose -f docker-compose.dev.yml up -d[43Ddo                                            [44Ddocker compose -f docker-compose.dev.yml up -d[44Dd                                             [45Dddocker compose -f docker-compose.dev.yml up -d[45D                                              [46Ddddocker compose -f docker-compose.dev.yml up -d[45Ddododocdocckkeerdockerr r p                                      [38Dpspsps[?1l>[?2004l
+]2;docker ps]1;dockerCONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS              PORTS                     NAMES
+2f129675c841   mongo     "docker-entrypoint.s…"   About a minute ago   Up About a minute   0.0.0.0:3456->27017/tcp   todo-backend-mongo-1
+%                                                                                                                               ]2;marc@AirMac:~/Desktop/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://AirMac.local/Users/marc/Desktop/part12-containers-applications/todo-app/todo-backend\[K
+[J
+[A~/Desktop/part12-containers-applications/todo-app/todo-backend main* ⇡                                                11:40:46
+❯ [K[?1h=[?2004h[?25l[A[J
+[A~/Desktop/part12-containers-applications/todo-app/todo-backend main* ⇡                                                11:40:46
+❯ [K[?25hdddocker ps[8Ddododocdocckkeerdockerr r e xec -it 17 bash[15Dxec -it 2      f  17 bash[16Dt                      [22Dtodo-backend-mongo-1[20Ddocker exec -it todo-backend-mongo-1[20Dtodo-backend-mongo-117 bash       [37Ddocker[31Cbbbabash[?1l>[?2004l
+]2;docker exec -it todo-backend-mongo-1 bash]1;docker[?2004hroot@2f129675c841:/# mongosh -u root -p example-u root -p example  
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	67cec22cff50a40b9651e943
+Connecting to:		mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.4.0
+Using MongoDB:		8.0.5
+Using Mongosh:		2.4.0
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the disableTelemetry() command.
+
+[1G[0J [1G[?2004h------
+   The server generated these startup warnings when booting
+   2025-03-10T10:39:45.583+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-03-10T10:39:46.978+00:00: For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile
+   2025-03-10T10:39:46.978+00:00: We suggest setting the contents of sysfsFile to 0.
+   2025-03-10T10:39:46.978+00:00: Your system has glibc support for rseq built in, which is not yet supported by tcmalloc-google and has critical performance implications. Please set the environment variable GLIBC_TUNABLES=glibc.pthread.rseq=0
+   2025-03-10T10:39:46.978+00:00: vm.max_map_count is too low
+   2025-03-10T10:39:46.978+00:00: We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.
+------
+
+[1G[0Jtest> [7Gshw dbs
+Uncaught:
+SyntaxError: Missing semicolon. (1:3)
+
+> 1 | shw dbs
+    |    ^
+  2 |
+
+[1G[0Jtest> [7G[1G[0Jtest> shw dbs[14G[1D[1D[1D[1D[1D[1G[0Jtest> show dbs[10G[5C
+admin         100.00 KiB
+config         72.00 KiB
+local          72.00 KiB
+the_database   72.00 KiB
+[1G[0Jtest> [7Guse the_database
+switched to db the_database
+[1G[0Jthe_database> [15Gshow collections
+todos
+[1G[0Jthe_database> [15Gdb.todos.find({})
+[
+  {
+    _id: ObjectId('67cdacb1f33b9af9b951e944'),
+    text: 'Write code',
+    done: true
+  },
+  {
+    _id: ObjectId('67cdacb1f33b9af9b951e945'),
+    text: 'Learn about containers',
+    done: false
+  },
+  {
+    _id: ObjectId('67cdacd2d7362f2f91aa577f'),
+    text: 'Put todo from Postman',
+    done: true,
+    __v: 0
+  }
+]
+[1G[0Jthe_database> [15Gdb.todos.insertOne({texttext: 'Increase the number of tools in my tool belt', [1G[0Jthe_database> db.todos.insertOne({text: 'Increase the number of tools in my tool belt',[88G[1G[0Jthe_database> db.todos.insertOne({text: 'Increase the number of tools in my tool belt'[87G})
+{
+  acknowledged: true,
+  insertedId: ObjectId('67cec357ff50a40b9651e944')
+}
+[1G[0Jthe_database> [15Gdb.todos.find({})
+[
+  {
+    _id: ObjectId('67cdacb1f33b9af9b951e944'),
+    text: 'Write code',
+    done: true
+  },
+  {
+    _id: ObjectId('67cdacb1f33b9af9b951e945'),
+    text: 'Learn about containers',
+    done: false
+  },
+  {
+    _id: ObjectId('67cdacd2d7362f2f91aa577f'),
+    text: 'Put todo from Postman',
+    done: true,
+    __v: 0
+  },
+  {
+    _id: ObjectId('67cec357ff50a40b9651e944'),
+    text: 'Increase the number of tools in my tool belt'
+  }
+]
+[1G[0Jthe_database> [15Gdb.todos.updas[1G[0Jthe_database> db.todos.upda[28GteOne({texttext: '[1G[0Jthe_database> db.todos.updateOne({text: [41G'Increase the number of tools in my tool belt'}, {$set$set: {ddodonedone: fak[1G[0Jthe_database> db.todos.updateOne({text: 'Increase the number of tools in my tool belt'}, {$set: {done: fa[106Glsfalse}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.updateOne({text: 'Increase the number of tools in my tool belt'}, {$set: {done: false}})[112G[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId('67cdacb1f33b9af9b951e944'),
+    text: 'Write code',
+    done: true
+  },
+  {
+    _id: ObjectId('67cdacb1f33b9af9b951e945'),
+    text: 'Learn about containers',
+    done: false
+  },
+  {
+    _id: ObjectId('67cdacd2d7362f2f91aa577f'),
+    text: 'Put todo from Postman',
+    done: true,
+    __v: 0
+  },
+  {
+    _id: ObjectId('67cec357ff50a40b9651e944'),
+    text: 'Increase the number of tools in my tool belt',
+    done: false
+  }
+]
+[1G[0Jthe_database> [15Gexit
+[?2004l[?2004hroot@2f129675c841:/# exit
+[?2004lexit
+
+What's next:
+    Try Docker Debug for seamless, persistent debugging tools in any container or image → docker debug todo-backend-mongo-1
+    Learn more at https://docs.docker.com/go/debug-cli/
+%                                                                                                                               ]2;marc@AirMac:~/Desktop/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://AirMac.local/Users/marc/Desktop/part12-containers-applications/todo-app/todo-backend\[K
+[J
+[A~/Desktop/part12-containers-applications/todo-app/todo-backend main* ⇡                                        12m 41s 11:54:01
+❯ [K[?1h=[?2004heeexitexexexiexiitexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Mon Mar 10 11:54:06 2025
