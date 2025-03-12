@@ -8,6 +8,9 @@ COPY . .
 RUN npm ci
 
 ENV VITE_BACKEND_URL=http://localhost:3000
+ENV CI=true
+
+RUN npm test
 
 RUN npm run build
 
