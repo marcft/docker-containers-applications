@@ -1,0 +1,14 @@
+# This file is used to run ONLY the development version of the frontend application.
+services:
+  app:
+    image: todo-front-dev
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - 5173:5173
+    container_name: todo-front-dev
+    environment:
+      - VITE_BACKEND_URL=http://localhost:3000

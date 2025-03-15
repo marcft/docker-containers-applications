@@ -1,5 +1,5 @@
 # The first FROM is now a stage called build-stage
-FROM node:22 AS build-stage 
+FROM node:22-bullseye-slim AS build-stage 
 
 WORKDIR /usr/src/app
 
@@ -7,7 +7,7 @@ COPY . .
 
 RUN npm ci
 
-ENV VITE_BACKEND_URL=http://localhost:3000
+ENV VITE_BACKEND_URL=http://localhost:8080/api
 ENV CI=true
 
 RUN npm test

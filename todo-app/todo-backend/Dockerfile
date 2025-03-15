@@ -6,8 +6,7 @@ COPY --chown=node:node . .
 
 RUN npm ci --omit=dev
 
-ENV DEBUG=todo-express-backend:* \
-    NODE_ENV=production
+ENV NODE_ENV=production
 
 USER node
 

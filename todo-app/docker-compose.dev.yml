@@ -1,3 +1,4 @@
+# This file is used to run the development environment of the ENTIRE application
 services:
   app:
     image: todo-front-dev

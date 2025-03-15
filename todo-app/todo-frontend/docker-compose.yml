@@ -1,6 +1,0 @@
-services:
-  todo-frontend:
-    image: todo-frontend
-    build: .
-    ports:
-      - 8080:80
