@@ -170,7 +170,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Phonebook</h1>
+      <h1 style={{ color: 'green' }}>Phonebook</h1>
       <SuccessNotification message={successMessage} />
       <ErrorNotification message={errorMessage} />
       <Filter filterValue={filter} onFilterChange={handleFilterChange} />
