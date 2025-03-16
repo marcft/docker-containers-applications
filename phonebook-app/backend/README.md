@@ -1,28 +1,39 @@
-# Phonebook App Backend
+# Phonebook API
 
-This backend server is designed to support a phonebook app where users can add and manage people and its telephone number.
-
-Thefrontend of this project is located in the part3 of the fullstack-open repository, on my profile.
+This is the backend for a simple phonebook application. It provides RESTful API endpoints to manage phone contacts.
 
 ## Features
 
-- User can view a list of contacts with their names and phone numbers.
-- User can add a new contact to the phonebook.
-- User can delete a contact from the phonebook.
-- Users can modify a contact's name from the phonebook.
-- Users can filter the contacts list by name.
+- Store, retrieve, update and delete contacts
+- Search contacts by name
+- Validation for contact data
+- MongoDB for data storage
+- Express for the API server
+- Mongoose for MongoDB object modeling
+
+## API Endpoints
+
+- `GET /api/persons` - Get all contacts
+- `GET /api/persons/:id` - Get a specific contact
+- `POST /api/persons` - Create a new contact
+- `PUT /api/persons/:id` - Update a contact
+- `DELETE /api/persons/:id` - Delete a contact
 
 ## Technologies Used
 
-- **Frontend:** React, Vite
-- **Backend:** Node.js, Express
-- **Database:** MongoDB
+- Node.js
+- Express
+- MongoDB
+- Mongoose
 
-## Folder Structure
+## Docker Support
 
-- `dist/`: Contains the frontend React application on production mode.
-- `index.js`: Contains the backend Node.js and Express server code.
+This application can be containerized using Docker:
 
-## Demo
+- Use the provided Dockerfile for production builds
+- Use dev.Dockerfile for development environments
+- Can be run as part of the complete application stack with docker-compose
 
-This project is uploaded to Render, you can access the live demo [here](https://phonebook-app-backend-i07s.onrender.com)
+## Related Components
+
+This backend works with the Phonebook App frontend which provides the user interface for managing contacts.
